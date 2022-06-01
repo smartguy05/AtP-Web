@@ -1,0 +1,31 @@
+@import '../assets/variables';
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+atp-navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: -64px;
+  height: 120px;
+  background-color: $navigation-color;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  padding: 25px;
+}
+
+atp-footer {
+  display: flex;
+  min-height: 10vh;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

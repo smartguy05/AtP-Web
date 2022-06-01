@@ -2,7 +2,15 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "paths": {
+      "@resume/*": ["app/resume/*"],
+      "@portfolio/*": ["app/portfolio/*"],
+      "@core/*": ["app/core/*"],
+      "@common/*": ["app/common/*"],
+      "@models/*": ["app/common/models/*"],
+      "@environment": ["environments/environment"]
+    },
+    "baseUrl": "src",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

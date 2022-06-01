@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/purple-green.css';
+@import 'assets/variables';
+
+* {
+  font-family: Calibri, sans-serif;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+}
+
+mat-expansion-panel.mat-expansion-panel {
+  margin: 10px 0;
+}
+
+div.mat-expansion-panel-body {
+  background-color: $expansion-panel-body-color;
+  padding: 24px;
+}
+
+
+
