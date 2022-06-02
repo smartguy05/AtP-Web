@@ -4,21 +4,42 @@
       Technologies
     </mat-panel-title>
   </mat-expansion-panel-header>
-</mat-expansion-panel>
-<mat-expansion-panel>
-  <mat-expansion-panel-header>
-    <mat-panel-title>
-      Skills
-    </mat-panel-title>
-  </mat-expansion-panel-header>
-  <div *ngFor="let skill of skills$ | async">
-    {{skill.name}}
+  <div class="technologies-wrapper">
+    <atp-technologies
+      *ngFor="let category of categories$ | async"
+      [technologies]="getCategoryTechnologies(category)"
+      [category]="category"
+    >
+    </atp-technologies>
   </div>
 </mat-expansion-panel>
-<mat-expansion-panel>
+<mat-expansion-panel [expanded]="true">
   <mat-expansion-panel-header>
     <mat-panel-title>
       Experience
     </mat-panel-title>
   </mat-expansion-panel-header>
+  <div class="search-container">
+    <mat-form-field>
+      <input
+        #search
+        matInput
+        placeholder="Enter text to search..."
+        (keyup)="onKeyUp(search.value)"
+      >
+      <button *ngIf="search.value" matSuffix mat-icon-button aria-label="Clear" (click)="search.value = ''; onKeyUp('')">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+  </div>
+  <div class="results-container">
+    <div *ngIf="!(hideSpinner$ | async)" class="spinner-container">
+      <mat-spinner></mat-spinner>
+    </div>
+    <atp-work
+      *ngFor="let exp of experience$ | async"
+      [experience]="exp"
+    >
+    </atp-work>
+  </div>
 </mat-expansion-panel>

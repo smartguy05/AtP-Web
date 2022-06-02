@@ -1,1 +1,17 @@
-<p>work works!</p>
+<article>
+  <div class="job-details-container">
+    <span class="job-dates">{{experience.employmentDates.start}} - {{experience.employmentDates.end ?? "Present"}}</span>
+    <span class="job-title">{{experience.jobTitle}}</span>
+    <span class="job-employer">{{experience.employer}} - {{experience.location.city}}, {{experience.location.state}}</span>
+  </div>
+  <b>Technologies</b>: {{experience.technologies.join(", ")}}
+
+  <p>{{experience.description}}</p>
+
+  {{experience.duties?.title}}
+  <ul>
+    <li *ngFor="let bullet of experience.duties?.bullets">
+      {{bullet}}
+    </li>
+  </ul>
+</article>

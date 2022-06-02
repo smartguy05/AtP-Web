@@ -1,9 +1,17 @@
 ﻿
+// navigation component
 $navigation-color: #000;
 $navigation-text-color: #fff;
 
+// footer component
 $footer-background-color: #e8e6e6;
 
-$border-color: #c9c7c7;
+// dark text on light background
+$secondary-bg: #dcdedc;
+$secondary-font-color: #000;
+$secondary-font-weight: 500;
 
+// generic
+$border-color: #c9c7c7;
 $expansion-panel-body-color: #919191;
+$default-border: 1px solid black;

@@ -1,3 +1,43 @@
-p {
-  //height: 2000px;
+@import "../../assets/variables";
+
+.technologies-wrapper {
+  padding: 5px;
+  border-radius: 10px;
+  background: $secondary-bg;
+  color: $secondary-font-color;
+
+  atp-technologies:not(:last-child):after {
+    content: '';
+    display: block;
+    padding-bottom: .5rem;
+    border-top: 1px solid black;
+  }
+}
+
+.search-container {
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: end;
+
+  input {
+    width: 30vw;
+    min-width: 200px;
+  }
+}
+
+.results-container {
+  .spinner-container {
+    width: 100%;
+    height: calc(100% - 150px);
+    position: absolute;
+    top: 150px;
+    left: 0;
+    backdrop-filter: blur(2px);
+
+    mat-spinner {
+      left: 50%;
+      top: 5%;
+      margin-left: -50px;
+    }
+  }
 }

@@ -13,6 +13,7 @@ atp-navigation {
   top: -64px;
   height: 120px;
   background-color: $navigation-color;
+  z-index: 9999;
 }
 
 main {
@@ -20,6 +21,7 @@ main {
   flex-direction: column;
   flex-grow: 2;
   padding: 25px;
+  margin-bottom: 67px;
 }
 
 atp-footer {

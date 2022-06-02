@@ -1,25 +1,386 @@
 ﻿{
-  "skills": [
+  "technologies": [
     {
-      "id": 1,
-      "name": "test1",
-      "keys": "testing"
+      "name": "HTML5",
+      "category": "Web"
     },
     {
-      "id": 2,
-      "name": "test2",
-      "keys": "testing"
+      "name": "CSS",
+      "category": "Web"
     },
     {
-      "id": 3,
-      "name": "test3",
-      "keys": "testing"
+      "name": "RxJS",
+      "category": "Web"
+    },
+    {
+      "name": "WinForms",
+      "category": "Desktop"
+    },
+    {
+      "name": "WPF",
+      "category": "Desktop"
+    },
+    {
+      "name": "C#",
+      "category": "Languages"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Preferred Programming Languages"
+    },
+    {
+      "name": "JavaScript",
+      "category": "Preferred Programming Languages"
+    },
+    {
+      "name": "C#",
+      "category": "Preferred Programming Languages"
+    },
+    {
+      "name": "Oracle",
+      "category": "Database"
+    },
+    {
+      "name": "PL/SQL",
+      "category": "Database"
+    },
+    {
+      "name": "Linq",
+      "category": "Database"
+    },
+    {
+      "name": "EF",
+      "category": "Database"
+    },
+    {
+      "name": "Firebase",
+      "category": "Database"
+    },
+    {
+      "name": "NoSql",
+      "category": "Database"
+    },
+    {
+      "name": "Redis",
+      "category": "Database"
+    },
+    {
+      "name": ".Net",
+      "category": "Framework"
+    },
+    {
+      "name": ".Net Core 2.0+",
+      "category": "Framework"
+    },
+    {
+      "name": "Angular 4+",
+      "category": "Framework"
+    },
+    {
+      "name": "ASP.Net Web Api",
+      "category": "Framework"
+    },
+    {
+      "name": "NUnit",
+      "category": "Framework"
+    },
+    {
+      "name": "XUnit",
+      "category": "Framework"
+    },
+    {
+      "name": "Bootstrap",
+      "category": "Library"
+    },
+    {
+      "name": "AutoMapper",
+      "category": "Library"
+    },
+    {
+      "name": "Material Design",
+      "category": "Library"
+    },
+    {
+      "name": "Git",
+      "category": "Source Control"
+    },
+    {
+      "name": "SVN",
+      "category": "Source Control"
+    },
+    {
+      "name": "BitBucket",
+      "category": "Source Control"
+    },
+    {
+      "name": "TFS",
+      "category": "Source Control"
     }
   ],
-  "technologies": [
-
-  ],
   "experience": [
-
+    {
+      "employmentDates": {
+        "start": "04/2022"
+      },
+      "jobTitle": "Senior Full Stack Software Engineer",
+      "employer": "Redwood Trust",
+      "location": {
+        "city": "Englewood",
+        "state": "CO",
+        "address": ""
+      },
+      "technologies": [
+        "Angular 10+",
+        "C#",
+        "ASP.Net Core",
+        "Javascript/Typescript",
+        "HTML5",
+        "CSS",
+        "Entity Framework Core",
+        "Linq",
+        "Git",
+        "TFS",
+        "Nativescript"
+      ],
+      "description": "At Redwood Trust I am the Senior Engineer for the Redwood Live product.",
+      "duties": {
+        "title": "My duties include:",
+        "bullets": [
+          "Bug Fixes",
+          "Code Reviews",
+          "Creating new Angular pages",
+          "Creating reusable Angular components",
+          "Mentoring team members",
+          "Research issues and framework limitations discovered",
+          "Designing/fixing/implementing architectural changes to the application"
+        ]
+      }
+    },
+    {
+      "employmentDates": {
+        "start": "10/2020",
+        "end": "03/2022"
+      },
+      "jobTitle": "Senior Full Stack Software Engineer",
+      "employer": "Bank of America",
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "address": ""
+      },
+      "technologies": [
+        "Angular 11",
+        "C#",
+        "ASP.Net Core",
+        "Javascript/Typescript",
+        "HTML5",
+        "CSS",
+        "Entity Framework Core",
+        "Linq",
+        "Git",
+        "BitBucket",
+        "Jira",
+        "Jenkins"
+      ],
+      "description": "At Bank of America I was a Senior Software Engineer working on an internal access review product. My team consisted of myself and 7 other engineers as well as QA. Our team was working on creating a new updated implementation of the existing software.",
+      "duties": {
+        "title": "My duties included:",
+        "bullets": [
+          "Code Reviews",
+          "Creating new Angular pages",
+          "Creating reusable Angular components",
+          "Mentoring team members",
+          "Research issues and framework limitations discovered",
+          "Designing/fixing/implementing architectural changes to the application"
+        ]
+      }
+    },
+    {
+      "employmentDates": {
+        "start": "05/2019",
+        "end": "10/2020"
+      },
+      "jobTitle": "Full Stack Software Engineer/Team Lead",
+      "employer": "Ntirety",
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "address": ""
+      },
+      "technologies": [
+        "Angular 6-10",
+        "C#", "ASP.Net",
+        "Asp.Net Core",
+        "TFS",
+        "JavaScript/Typescript",
+        "HTML5",
+        "CSS",
+        "Entity Framework",
+        "Linq"
+      ],
+      "description": "At Ntirety I was the team lead for the Engineering Portal team consisting of myself and 2 other engineers as well as QA.",
+      "duties": {
+        "title": "My duties included:",
+        "bullets": [
+          "Migration of pages from Kendo/ Knockout/ MVC to Angular",
+          "Finding and fixing security and performance issues",
+          "Mentoring team members",
+          "Update Engineering team coding best practices",
+          "Designing/fixing/implementing architectural changes to the application",
+          "Code reviews",
+          "Creating/maintaining TFS work backlog",
+          "Implementing business requirements",
+          "Create relevant application documentation"
+        ]
+      }
+    },
+    {
+      "employmentDates": {
+        "start": "08/2018",
+        "end": "05/2019"
+      },
+      "jobTitle": "Full Stack Software Engineer",
+      "employer": "Federal Reserve Bank of Kansas City",
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "address": ""
+      },
+      "technologies": [
+        "Angular 4-7",
+        "C#",
+        "ASP.Net",
+        ".Net Core",
+        "Git",
+        "TFS",
+        "JavaScript/Typescript",
+        "HTML5",
+        "CSS",
+        "Entity Framework",
+        "Linq",
+        "SQL"
+      ],
+      "description": "At the Federal Reserve, I was part of a feature product team consisting of approximately 20 engineers for the Federal Reserve Bank building a national internal web application in a microservice architecture.",
+      "duties": {
+        "title": "In this role my duties included:",
+        "bullets": [
+          "Pull requests & code reviews",
+          "Technical design & feature sizing",
+          "Implementing business requirements",
+          "Create/Update Angular components"
+        ]
+      }
+    },
+    {
+      "employmentDates": {
+        "start": "02/2018",
+        "end": "08/2018"
+      },
+      "jobTitle": "Full Stack Software Engineer",
+      "employer": "Governor's Office of Information Technology",
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "address": ""
+      },
+      "technologies": [
+        "C#",
+        "ASP.NET",
+        ".NET Core",
+        "WinForms",
+        "SVN",
+        "JavaScript",
+        "JQuery",
+        "HTML5",
+        "SQL",
+        "Entity Framework",
+        "Linq",
+        "Oracle"
+      ],
+      "description": "At the Governor’s Office, I was responsible for the architecting and development of a new federal transportation project responsible for tracking accident data on Colorado roads. My team consisted of myself, another developer, and a database administrator.",
+      "duties": {
+        "title": "In this role my duties included:",
+        "bullets": [
+          "Weekly design meetings with BA’s, DBA’s, & PO’s",
+          "Architecting Database structure",
+          "Architecting application architecture",
+          "Creating work items",
+          "Implementing BA requirements",
+          "Mentoring other developers"
+        ]
+      }
+    },
+    {
+      "employmentDates": {
+        "start": "04/2015",
+        "end": "01/2018"
+      },
+      "jobTitle": "Full Stack Software Engineer",
+      "employer": "Software Consultant",
+      "location": {
+        "city": "Colorado Springs",
+        "state": "CO",
+        "address": ""
+      },
+      "technologies": [
+        "C#",
+        "ASP.NET",
+        "Git",
+        "TFS",
+        "JavaScript",
+        "HTML5",
+        "SQL",
+        "Entity Framework",
+        "Linq",
+        "SQL",
+        "Oracle",
+        "WPF",
+        "WinForms"
+      ],
+      "description": "As a consultant, I was responsible for creating, maintaining, and updating custom applications using various programming languages and frameworks. It was my responsibility to maintain timeliness as well as the quality of my projects. Some of the projects I worked on include ATMs and kiosk software used in Casinos in Colorado and Nevada among a variety of other projects in healthcare and other markets.",
+      "duties": null
+    },
+    {
+      "employmentDates": {
+        "start": "04/2015",
+        "end": "05/2016"
+      },
+      "jobTitle": "Software Engineer III",
+      "employer": "Synchronoss Technologies",
+      "location": {
+        "city": "Englewood",
+        "state": "CO",
+        "address": ""
+      },
+      "technologies": [
+        "VB.NET",
+        "Python",
+        "Oracle"
+      ],
+      "description": "At Synchronoss I worked on a support team dedicated to creating add-ons to fulfill business needs. My primary work consisted of creating add-ons for businesses to enhance the main software functionality. I was also responsible for creating custom scripts to normalize database data and prepare for upgrades.",
+      "duties": null
+    },
+    {
+      "employmentDates": {
+        "start": "10/2009",
+        "end": "04/2015"
+      },
+      "jobTitle": "Software Engineer",
+      "employer": "Triple Crown Casinos",
+      "location": {
+        "city": "Cripple Creek",
+        "state": "CO",
+        "address": ""
+      },
+      "technologies": [
+        "VB.NET",
+        "C#",
+        "WinForms",
+        "Java",
+        "SQL"
+      ],
+      "description": "At the casinos, I was responsible for day to day operations of our servers as well as the creation of custom applications. During my time I created a custom player kiosk used by over 100k customers annually, as well as several other business-specific applications. It was my job to handle every aspect of development from planning to support.",
+      "duties": null
+    }
   ]
 }

@@ -1,6 +1,8 @@
 ﻿import {Injectable} from "@angular/core";
-import {Observable, of} from "rxjs";
+import {Observable} from "rxjs";
 import {ApiService} from "@core/services/api.service";
+import {Technology} from "@models/technology.model";
+import {Experience} from "@models/experience.model";
 
 @Injectable()
 export class ResumeService {
@@ -10,15 +12,11 @@ export class ResumeService {
     private readonly api: ApiService
   ) { }
 
-  public get experience(): Observable<any[]> {
-    return this.api.get<any[]>(`${this.url}/experience`);
+  public get experience(): Observable<Experience[]> {
+    return this.api.get<Experience[]>(`${this.url}/experience`);
   }
 
-  public get skills(): Observable<any[]> {
-    return this.api.get<any[]>(`${this.url}/skills`);
-  }
-
-  public get technologies(): Observable<any[]> {
-    return this.api.get<any[]>(`${this.url}/technologies`);
+  public get technologies(): Observable<Technology[]> {
+    return this.api.get<Technology[]>(`${this.url}/technologies`);
   }
 }

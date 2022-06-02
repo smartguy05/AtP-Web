@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'atp-technologies',
@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./technologies.component.scss']
 })
 export class TechnologiesComponent implements OnInit {
+  @Input()
+  public technologies!: string[];
+  @Input()
+  public category!: string;
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

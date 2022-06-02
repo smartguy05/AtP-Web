@@ -1,0 +1,29 @@
+@import "../../../assets/variables";
+
+article {
+  background-color: $secondary-bg;
+  padding: 10px;
+  color: $secondary-font-color;
+  font-weight: $secondary-font-weight;
+  border-radius: 10px;
+  margin-bottom: 24px;
+
+  .job-details-container {
+    display: flex;
+    flex-direction: column;
+
+    > span {
+      margin-bottom: 3px;
+    }
+
+    .job-dates {
+        font-size: large;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+  }
+}
+
+
